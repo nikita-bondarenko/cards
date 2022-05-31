@@ -1,0 +1,36 @@
+@import 'product-list.scss';
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    height: 100%;
+    border: 1px solid #bfbfbf;
+    border-radius: 6px;
+
+    &__image {
+        height: 220px;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    &__title {
+        font-size: 20px;
+        margin: 0 0 20px;
+
+        a {
+            color: $colorText;
+            text-decoration: none;
+        }
+    }
+
+    &__price {
+        margin-top: auto;
+        font-size: 18px;
+        color: $colorTextLight;
+    }
+}
