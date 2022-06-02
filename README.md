@@ -1,1 +1,1 @@
-# This is a simple card-row using CSS-preprocessor SCSS.
+# This is a simple row of cards using CSS-preprocessor SCSS.
