@@ -1,4 +1,4 @@
-# Simple web-site using CSS-preprocessor SCSS.
+# Cards' row using CSS-preprocessor SCSS.
 
 ### Project setup
 ```
